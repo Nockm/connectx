@@ -1,0 +1,17 @@
+{
+  "name": "four",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:test": "watch \"clear && npm run test\" ./src",
+    "test": "node tests/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+  }
+}
